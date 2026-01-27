@@ -1,0 +1,27 @@
+# Python environment
+.venv/
+venv/
+
+# Python artifacts
+__pyache__/
+*.pyc
+
+# Security
+.env
+
+# Databases (in case you still have the default SQLite file)
+db.sqlite3 # Keep this in case you ever use it for testing
+*.sqlite3
+
+# Django specific
+static/
+media/
+staticfiles/
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
